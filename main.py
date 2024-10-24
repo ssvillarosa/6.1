@@ -1,3 +1,4 @@
 from getname import random_name
 
-print(random_name('superhero'))
+hero_name = random_name('superhero')
+print(f"Your hero name is {hero_name}")
